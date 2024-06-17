@@ -1,0 +1,7 @@
+C:\Users\HP\source\repos\PersianTime\PersianTime\bin\Debug\PersianTime.exe.config
+C:\Users\HP\source\repos\PersianTime\PersianTime\bin\Debug\PersianTime.exe
+C:\Users\HP\source\repos\PersianTime\PersianTime\bin\Debug\PersianTime.pdb
+C:\Users\HP\source\repos\PersianTime\PersianTime\obj\Debug\PersianTime.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\PersianTime\PersianTime\obj\Debug\PersianTime.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\PersianTime\PersianTime\obj\Debug\PersianTime.exe
+C:\Users\HP\source\repos\PersianTime\PersianTime\obj\Debug\PersianTime.pdb

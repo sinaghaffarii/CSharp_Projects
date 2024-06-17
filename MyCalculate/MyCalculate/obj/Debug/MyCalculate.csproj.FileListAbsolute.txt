@@ -1,0 +1,10 @@
+C:\Users\HP\source\repos\MyCalculate\MyCalculate\bin\Debug\MyCalculate.exe.config
+C:\Users\HP\source\repos\MyCalculate\MyCalculate\bin\Debug\MyCalculate.exe
+C:\Users\HP\source\repos\MyCalculate\MyCalculate\bin\Debug\MyCalculate.pdb
+C:\Users\HP\source\repos\MyCalculate\MyCalculate\obj\Debug\MyCalculate.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\MyCalculate\MyCalculate\obj\Debug\MyCalculate.Form1.resources
+C:\Users\HP\source\repos\MyCalculate\MyCalculate\obj\Debug\MyCalculate.Properties.Resources.resources
+C:\Users\HP\source\repos\MyCalculate\MyCalculate\obj\Debug\MyCalculate.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\MyCalculate\MyCalculate\obj\Debug\MyCalculate.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\MyCalculate\MyCalculate\obj\Debug\MyCalculate.exe
+C:\Users\HP\source\repos\MyCalculate\MyCalculate\obj\Debug\MyCalculate.pdb
