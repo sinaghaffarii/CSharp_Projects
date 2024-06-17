@@ -1,0 +1,10 @@
+E:\CSharp_Repos\CSharp_Projects\MyContacts\MyContacts\obj\Debug\MyContacts.csproj.AssemblyReference.cache
+E:\CSharp_Repos\CSharp_Projects\MyContacts\MyContacts\obj\Debug\MyContacts.Contacts.resources
+E:\CSharp_Repos\CSharp_Projects\MyContacts\MyContacts\obj\Debug\MyContacts.Properties.Resources.resources
+E:\CSharp_Repos\CSharp_Projects\MyContacts\MyContacts\obj\Debug\MyContacts.csproj.GenerateResource.cache
+E:\CSharp_Repos\CSharp_Projects\MyContacts\MyContacts\obj\Debug\MyContacts.csproj.CoreCompileInputs.cache
+E:\CSharp_Repos\CSharp_Projects\MyContacts\MyContacts\bin\Debug\MyContacts.exe.config
+E:\CSharp_Repos\CSharp_Projects\MyContacts\MyContacts\bin\Debug\MyContacts.exe
+E:\CSharp_Repos\CSharp_Projects\MyContacts\MyContacts\bin\Debug\MyContacts.pdb
+E:\CSharp_Repos\CSharp_Projects\MyContacts\MyContacts\obj\Debug\MyContacts.exe
+E:\CSharp_Repos\CSharp_Projects\MyContacts\MyContacts\obj\Debug\MyContacts.pdb
