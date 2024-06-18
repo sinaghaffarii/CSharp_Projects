@@ -21,8 +21,28 @@ namespace MyContacts
 
         private void Contacts_Load(object sender, EventArgs e)
         {
+            BindGrid();
+        }
+
+        private void BindGrid()
+        {
             dgContacts.AutoGenerateColumns = false;
-             dgContacts.DataSource = repository.SelectAll();
+            dgContacts.DataSource = repository.SelectAll();
+        }
+
+        private void btnRefresh_Click(object sender, EventArgs e)
+        {
+            BindGrid();
+        }
+
+        private void btnNewContact_Click(object sender, EventArgs e)
+        {
+            frmAddOrEdit frm = new frmAddOrEdit();
+            frm.ShowDialog();
+            if (frm.DialogResult == DialogResult.OK)
+            {
+                BindGrid();
+            }
         }
     }
 }

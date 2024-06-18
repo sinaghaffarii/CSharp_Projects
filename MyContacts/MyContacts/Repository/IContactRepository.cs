@@ -11,8 +11,8 @@ namespace MyContacts
     {
         DataTable SelectAll();
         DataTable SelectRow(int ContactId);
-        bool Insert(string name, string family, int mobile, string email, int age, string address);
-        bool Update(int contactId, string name, string family, int mobile, string email, int age, string address);
+        bool Insert(string name, string family, string mobile, string email, int age, string address);
+        bool Update(int contactId, string name, string family, string mobile, string email, int age, string address);
         bool Delect(int contactId);
     }
 }

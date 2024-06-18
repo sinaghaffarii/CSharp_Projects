@@ -8,3 +8,4 @@ E:\CSharp_Repos\CSharp_Projects\MyContacts\MyContacts\bin\Debug\MyContacts.exe
 E:\CSharp_Repos\CSharp_Projects\MyContacts\MyContacts\bin\Debug\MyContacts.pdb
 E:\CSharp_Repos\CSharp_Projects\MyContacts\MyContacts\obj\Debug\MyContacts.exe
 E:\CSharp_Repos\CSharp_Projects\MyContacts\MyContacts\obj\Debug\MyContacts.pdb
+E:\CSharp_Repos\CSharp_Projects\MyContacts\MyContacts\obj\Debug\MyContacts.frmAddOrEdit.resources

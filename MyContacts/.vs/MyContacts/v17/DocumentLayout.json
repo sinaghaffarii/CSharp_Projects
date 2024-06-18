@@ -7,16 +7,12 @@
       "RelativeMoniker": "D:0:0:{A4954225-7E21-4641-91FE-C49845149B81}|MyContacts\\MyContacts.csproj|solutionrelative:mycontacts\\services\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4954225-7E21-4641-91FE-C49845149B81}|MyContacts\\MyContacts.csproj|e:\\csharp_repos\\csharp_projects\\mycontacts\\mycontacts\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4954225-7E21-4641-91FE-C49845149B81}|MyContacts\\MyContacts.csproj|solutionrelative:mycontacts\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4954225-7E21-4641-91FE-C49845149B81}|MyContacts\\MyContacts.csproj|e:\\csharp_repos\\csharp_projects\\mycontacts\\mycontacts\\frmaddoredit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4954225-7E21-4641-91FE-C49845149B81}|MyContacts\\MyContacts.csproj|solutionrelative:mycontacts\\frmaddoredit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4954225-7E21-4641-91FE-C49845149B81}|MyContacts\\MyContacts.csproj|e:\\csharp_repos\\csharp_projects\\mycontacts\\mycontacts\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A4954225-7E21-4641-91FE-C49845149B81}|MyContacts\\MyContacts.csproj|solutionrelative:mycontacts\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4954225-7E21-4641-91FE-C49845149B81}|MyContacts\\MyContacts.csproj|e:\\csharp_repos\\csharp_projects\\mycontacts\\mycontacts\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4954225-7E21-4641-91FE-C49845149B81}|MyContacts\\MyContacts.csproj|solutionrelative:mycontacts\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4954225-7E21-4641-91FE-C49845149B81}|MyContacts\\MyContacts.csproj|e:\\csharp_repos\\csharp_projects\\mycontacts\\mycontacts\\frmaddoredit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A4954225-7E21-4641-91FE-C49845149B81}|MyContacts\\MyContacts.csproj|solutionrelative:mycontacts\\frmaddoredit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +22,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{25f7e850-ffa1-11d0-b63f-00a0c922e851}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmAddOrEdit.cs",
+              "DocumentMoniker": "E:\\CSharp_Repos\\CSharp_Projects\\MyContacts\\MyContacts\\frmAddOrEdit.cs",
+              "RelativeDocumentMoniker": "MyContacts\\frmAddOrEdit.cs",
+              "ToolTip": "E:\\CSharp_Repos\\CSharp_Projects\\MyContacts\\MyContacts\\frmAddOrEdit.cs",
+              "RelativeToolTip": "MyContacts\\frmAddOrEdit.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAIAwwBUAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T18:42:39.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmAddOrEdit.cs [Design]",
+              "DocumentMoniker": "E:\\CSharp_Repos\\CSharp_Projects\\MyContacts\\MyContacts\\frmAddOrEdit.cs",
+              "RelativeDocumentMoniker": "MyContacts\\frmAddOrEdit.cs",
+              "ToolTip": "E:\\CSharp_Repos\\CSharp_Projects\\MyContacts\\MyContacts\\frmAddOrEdit.cs [Design]",
+              "RelativeToolTip": "MyContacts\\frmAddOrEdit.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T18:42:37.55Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -40,47 +61,9 @@
               "RelativeDocumentMoniker": "MyContacts\\Services\\ContactRepository.cs",
               "ToolTip": "E:\\CSharp_Repos\\CSharp_Projects\\MyContacts\\MyContacts\\Services\\ContactRepository.cs",
               "RelativeToolTip": "MyContacts\\Services\\ContactRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB8AAAAYAAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAowEQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T19:55:34.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "E:\\CSharp_Repos\\CSharp_Projects\\MyContacts\\MyContacts\\Form1.cs",
-              "RelativeDocumentMoniker": "MyContacts\\Form1.cs",
-              "ToolTip": "E:\\CSharp_Repos\\CSharp_Projects\\MyContacts\\MyContacts\\Form1.cs",
-              "RelativeToolTip": "MyContacts\\Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T19:51:42.267Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "E:\\CSharp_Repos\\CSharp_Projects\\MyContacts\\MyContacts\\Form1.cs",
-              "RelativeDocumentMoniker": "MyContacts\\Form1.cs",
-              "ToolTip": "E:\\CSharp_Repos\\CSharp_Projects\\MyContacts\\MyContacts\\Form1.cs [Design]",
-              "RelativeToolTip": "MyContacts\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T19:51:24.53Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "E:\\CSharp_Repos\\CSharp_Projects\\MyContacts\\MyContacts\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "MyContacts\\Form1.Designer.cs",
-              "ToolTip": "E:\\CSharp_Repos\\CSharp_Projects\\MyContacts\\MyContacts\\Form1.Designer.cs",
-              "RelativeToolTip": "MyContacts\\Form1.Designer.cs",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAAwGUAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T19:50:58.772Z",
+              "WhenOpened": "2024-06-18T18:40:56.019Z",
               "EditorCaption": ""
             }
           ]

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
+using System.Windows.Forms;
 
 namespace MyContacts
 {
@@ -17,14 +18,36 @@ namespace MyContacts
             throw new NotImplementedException();
         }
 
-        public bool Insert(string name, string family, int mobile, string email, int age, string address)
+        public bool Insert(string name, string family, string mobile, string email, int age, string address)
         {
-            throw new NotImplementedException();
+            SqlConnection connection = new SqlConnection(connectionString);
+            try
+            {
+                string query = "Insert Into MyContacts (Name, Family, Mobile, Email, Age , Address) values (@Name, @Family,  @Mobile, @Email, @Age , @Address)";
+                SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@Name", name);
+                command.Parameters.AddWithValue("@Family", family);
+                command.Parameters.AddWithValue("@Mobile", mobile);
+                command.Parameters.AddWithValue("@Email", email);
+                command.Parameters.AddWithValue("@Age", age);
+                command.Parameters.AddWithValue("@Address", address);
+                connection.Open();
+                command.ExecuteNonQuery();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+            finally
+            {
+                connection.Close();
+            }
         }
 
         public DataTable SelectAll()
         {
-            string qurey = "Select * From MyContact";
+            string qurey = "Select * From MyContacts";
             SqlConnection connection = new SqlConnection(connectionString);
             SqlDataAdapter adapter = new SqlDataAdapter(qurey, connection);
             DataTable data = new DataTable();
@@ -37,7 +60,7 @@ namespace MyContacts
             throw new NotImplementedException();
         }
 
-        public bool Update(int contactId, string name, string family, int mobile, string email, int age, string address)
+        public bool Update(int contactId, string name, string family, string mobile, string email, int age, string address)
         {
             throw new NotImplementedException();
         }
