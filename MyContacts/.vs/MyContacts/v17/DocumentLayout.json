@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "E:\\CSharp_Repos\\CSharp_Projects\\MyContacts\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A4954225-7E21-4641-91FE-C49845149B81}|MyContacts\\MyContacts.csproj|e:\\csharp_repos\\csharp_projects\\mycontacts\\mycontacts\\services\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4954225-7E21-4641-91FE-C49845149B81}|MyContacts\\MyContacts.csproj|solutionrelative:mycontacts\\services\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4954225-7E21-4641-91FE-C49845149B81}|MyContacts\\MyContacts.csproj|e:\\csharp_repos\\csharp_projects\\mycontacts\\mycontacts\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4954225-7E21-4641-91FE-C49845149B81}|MyContacts\\MyContacts.csproj|solutionrelative:mycontacts\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4954225-7E21-4641-91FE-C49845149B81}|MyContacts\\MyContacts.csproj|e:\\csharp_repos\\csharp_projects\\mycontacts\\mycontacts\\frmaddoredit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4954225-7E21-4641-91FE-C49845149B81}|MyContacts\\MyContacts.csproj|solutionrelative:mycontacts\\frmaddoredit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4954225-7E21-4641-91FE-C49845149B81}|MyContacts\\MyContacts.csproj|e:\\csharp_repos\\csharp_projects\\mycontacts\\mycontacts\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A4954225-7E21-4641-91FE-C49845149B81}|MyContacts\\MyContacts.csproj|solutionrelative:mycontacts\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4954225-7E21-4641-91FE-C49845149B81}|MyContacts\\MyContacts.csproj|e:\\csharp_repos\\csharp_projects\\mycontacts\\mycontacts\\frmaddoredit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A4954225-7E21-4641-91FE-C49845149B81}|MyContacts\\MyContacts.csproj|solutionrelative:mycontacts\\frmaddoredit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4954225-7E21-4641-91FE-C49845149B81}|MyContacts\\MyContacts.csproj|e:\\csharp_repos\\csharp_projects\\mycontacts\\mycontacts\\services\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4954225-7E21-4641-91FE-C49845149B81}|MyContacts\\MyContacts.csproj|solutionrelative:mycontacts\\services\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4954225-7E21-4641-91FE-C49845149B81}|MyContacts\\MyContacts.csproj|e:\\csharp_repos\\csharp_projects\\mycontacts\\mycontacts\\repository\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4954225-7E21-4641-91FE-C49845149B81}|MyContacts\\MyContacts.csproj|solutionrelative:mycontacts\\repository\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4954225-7E21-4641-91FE-C49845149B81}|MyContacts\\MyContacts.csproj|e:\\csharp_repos\\csharp_projects\\mycontacts\\mycontacts\\frmaddoredit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4954225-7E21-4641-91FE-C49845149B81}|MyContacts\\MyContacts.csproj|solutionrelative:mycontacts\\frmaddoredit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,15 +42,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "IContactRepository.cs",
+              "DocumentMoniker": "E:\\CSharp_Repos\\CSharp_Projects\\MyContacts\\MyContacts\\Repository\\IContactRepository.cs",
+              "RelativeDocumentMoniker": "MyContacts\\Repository\\IContactRepository.cs",
+              "ToolTip": "E:\\CSharp_Repos\\CSharp_Projects\\MyContacts\\MyContacts\\Repository\\IContactRepository.cs",
+              "RelativeToolTip": "MyContacts\\Repository\\IContactRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T08:40:33.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "frmAddOrEdit.cs",
               "DocumentMoniker": "E:\\CSharp_Repos\\CSharp_Projects\\MyContacts\\MyContacts\\frmAddOrEdit.cs",
               "RelativeDocumentMoniker": "MyContacts\\frmAddOrEdit.cs",
               "ToolTip": "E:\\CSharp_Repos\\CSharp_Projects\\MyContacts\\MyContacts\\frmAddOrEdit.cs",
               "RelativeToolTip": "MyContacts\\frmAddOrEdit.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAIAwwBUAAAA3AAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAEgAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T18:42:39.394Z",
+              "WhenOpened": "2024-06-20T07:14:49.124Z",
               "EditorCaption": ""
             },
             {
@@ -50,18 +75,43 @@
               "ToolTip": "E:\\CSharp_Repos\\CSharp_Projects\\MyContacts\\MyContacts\\frmAddOrEdit.cs [Design]",
               "RelativeToolTip": "MyContacts\\frmAddOrEdit.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T18:42:37.55Z",
+              "WhenOpened": "2024-06-20T07:14:29.39Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\CSharp_Repos\\CSharp_Projects\\MyContacts\\MyContacts\\Form1.cs",
+              "RelativeDocumentMoniker": "MyContacts\\Form1.cs",
+              "ToolTip": "E:\\CSharp_Repos\\CSharp_Projects\\MyContacts\\MyContacts\\Form1.cs",
+              "RelativeToolTip": "MyContacts\\Form1.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAYwE8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T06:37:28.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "E:\\CSharp_Repos\\CSharp_Projects\\MyContacts\\MyContacts\\Form1.cs",
+              "RelativeDocumentMoniker": "MyContacts\\Form1.cs",
+              "ToolTip": "E:\\CSharp_Repos\\CSharp_Projects\\MyContacts\\MyContacts\\Form1.cs [Design]",
+              "RelativeToolTip": "MyContacts\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T06:36:01.347Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ContactRepository.cs",
               "DocumentMoniker": "E:\\CSharp_Repos\\CSharp_Projects\\MyContacts\\MyContacts\\Services\\ContactRepository.cs",
               "RelativeDocumentMoniker": "MyContacts\\Services\\ContactRepository.cs",
               "ToolTip": "E:\\CSharp_Repos\\CSharp_Projects\\MyContacts\\MyContacts\\Services\\ContactRepository.cs",
               "RelativeToolTip": "MyContacts\\Services\\ContactRepository.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAowEQAAAAAAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAowEgAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-18T18:40:56.019Z",
               "EditorCaption": ""

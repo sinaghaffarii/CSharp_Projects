@@ -15,7 +15,24 @@ namespace MyContacts
         private string connectionString = "Data Source=.;Initial Catalog=Contact_DB;Integrated Security=true";
         public bool Delect(int contactId)
         {
-            throw new NotImplementedException();
+            SqlConnection connection = new SqlConnection(connectionString);
+            try
+            {
+                string query = "Delete From MyContacts where ContactID=@ID";
+                SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@ID", contactId);
+                connection.Open();
+                command.ExecuteNonQuery();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+            finally
+            {
+                connection.Close();
+            }
         }
 
         public bool Insert(string name, string family, string mobile, string email, int age, string address)
@@ -45,6 +62,18 @@ namespace MyContacts
             }
         }
 
+        public DataTable Search(string Parameter)
+        {
+            string query = "Select * From MyContacts Where Name like @parameter or Family like @parameter";
+            SqlConnection connection = new SqlConnection(connectionString);
+            SqlDataAdapter adapter = new SqlDataAdapter(query, connection);
+            adapter.SelectCommand.Parameters.AddWithValue("@parameter", "%" + Parameter + "%");
+            DataTable data = new DataTable();
+            adapter.Fill(data);
+            return data;
+
+        }
+
         public DataTable SelectAll()
         {
             string qurey = "Select * From MyContacts";
@@ -57,12 +86,41 @@ namespace MyContacts
 
         public DataTable SelectRow(int ContactId)
         {
-            throw new NotImplementedException();
+            string qurey = "Select * From MyContacts where ContactID="+ContactId;
+            SqlConnection connection = new SqlConnection(connectionString);
+            SqlDataAdapter adapter = new SqlDataAdapter(qurey, connection);
+            DataTable data = new DataTable();
+            adapter.Fill(data);
+            return data;
         }
 
         public bool Update(int contactId, string name, string family, string mobile, string email, int age, string address)
         {
-            throw new NotImplementedException();
+            SqlConnection connection = new SqlConnection(connectionString);
+            try
+            {
+                string query = "Update MyContacts Set Name=@Name, Family=@Family, Mobile=@Mobile, Email=@Email, Age=@Age, Address=@Address Where ContactId=@ID";
+                SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@ID", contactId);
+                command.Parameters.AddWithValue("@Name", name);
+                command.Parameters.AddWithValue("@Family", family);
+                command.Parameters.AddWithValue("@Mobile", mobile);
+                command.Parameters.AddWithValue("@Email", email);
+                command.Parameters.AddWithValue("@Age", age);
+                command.Parameters.AddWithValue("@Address", address);
+                connection.Open();
+                command.ExecuteNonQuery();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+            finally
+            {
+                connection.Close();
+            }
+          
         }
     }
 }

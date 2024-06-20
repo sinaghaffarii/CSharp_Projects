@@ -44,5 +44,49 @@ namespace MyContacts
                 BindGrid();
             }
         }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            if (dgContacts.CurrentRow != null)
+            {
+                string name = dgContacts.CurrentRow.Cells[1].Value.ToString();
+                string family = dgContacts.CurrentRow.Cells[2].Value.ToString();
+                string fullName = name + " " + family;
+                if (MessageBox.Show($"آیا از حذف {fullName} مطمئن هستید؟", "توجه", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    int contactId = int.Parse(dgContacts.CurrentRow.Cells[0].Value.ToString());
+                    repository.Delect(contactId);
+                    BindGrid();
+                }
+            }
+            else
+            {
+                MessageBox.Show("لطفا یک شخص را از لیست انتخاب نمایید.");
+            }
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            if(dgContacts.CurrentRow != null)
+            {
+                int contactId = int.Parse(dgContacts.CurrentRow.Cells[0].Value.ToString());
+                frmAddOrEdit frm = new frmAddOrEdit();
+                frm.contactId = contactId;
+                if(frm.ShowDialog() == DialogResult.OK)
+                {
+                    BindGrid();
+                }
+
+            }
+            else
+            {
+                MessageBox.Show("لطفا یک شخص را از لیست انتخاب نمایید.");
+            }
+        }
+
+        private void txtSearch_TextChanged(object sender, EventArgs e)
+        {
+            dgContacts.DataSource = repository.Search(txtSearch.Text);
+        }
     }
 }
