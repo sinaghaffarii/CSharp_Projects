@@ -1,0 +1,12 @@
+E:\CSharp_Repos\CSharp_Projects\EF_Example\EF_Example\bin\Debug\EF_Example.exe.config
+E:\CSharp_Repos\CSharp_Projects\EF_Example\EF_Example\bin\Debug\EF_Example.exe
+E:\CSharp_Repos\CSharp_Projects\EF_Example\EF_Example\bin\Debug\EF_Example.pdb
+E:\CSharp_Repos\CSharp_Projects\EF_Example\EF_Example\bin\Debug\EntityFramework.dll
+E:\CSharp_Repos\CSharp_Projects\EF_Example\EF_Example\bin\Debug\EntityFramework.SqlServer.dll
+E:\CSharp_Repos\CSharp_Projects\EF_Example\EF_Example\bin\Debug\EntityFramework.xml
+E:\CSharp_Repos\CSharp_Projects\EF_Example\EF_Example\bin\Debug\EntityFramework.SqlServer.xml
+E:\CSharp_Repos\CSharp_Projects\EF_Example\EF_Example\obj\Debug\EF_Example.csproj.AssemblyReference.cache
+E:\CSharp_Repos\CSharp_Projects\EF_Example\EF_Example\obj\Debug\EF_Example.csproj.CoreCompileInputs.cache
+E:\CSharp_Repos\CSharp_Projects\EF_Example\EF_Example\obj\Debug\EF_Example.csproj.Up2Date
+E:\CSharp_Repos\CSharp_Projects\EF_Example\EF_Example\obj\Debug\EF_Example.exe
+E:\CSharp_Repos\CSharp_Projects\EF_Example\EF_Example\obj\Debug\EF_Example.pdb
