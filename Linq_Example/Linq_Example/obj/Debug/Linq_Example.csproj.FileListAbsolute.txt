@@ -1,0 +1,7 @@
+E:\CSharp_Repos\CSharp_Projects\Linq_Example\Linq_Example\bin\Debug\Linq_Example.exe.config
+E:\CSharp_Repos\CSharp_Projects\Linq_Example\Linq_Example\bin\Debug\Linq_Example.exe
+E:\CSharp_Repos\CSharp_Projects\Linq_Example\Linq_Example\bin\Debug\Linq_Example.pdb
+E:\CSharp_Repos\CSharp_Projects\Linq_Example\Linq_Example\obj\Debug\Linq_Example.csproj.AssemblyReference.cache
+E:\CSharp_Repos\CSharp_Projects\Linq_Example\Linq_Example\obj\Debug\Linq_Example.csproj.CoreCompileInputs.cache
+E:\CSharp_Repos\CSharp_Projects\Linq_Example\Linq_Example\obj\Debug\Linq_Example.exe
+E:\CSharp_Repos\CSharp_Projects\Linq_Example\Linq_Example\obj\Debug\Linq_Example.pdb
