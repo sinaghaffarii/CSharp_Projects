@@ -9,3 +9,8 @@ E:\CSharp_Repos\CSharp_Projects\MyContacts\MyContacts\bin\Debug\MyContacts.pdb
 E:\CSharp_Repos\CSharp_Projects\MyContacts\MyContacts\obj\Debug\MyContacts.exe
 E:\CSharp_Repos\CSharp_Projects\MyContacts\MyContacts\obj\Debug\MyContacts.pdb
 E:\CSharp_Repos\CSharp_Projects\MyContacts\MyContacts\obj\Debug\MyContacts.frmAddOrEdit.resources
+E:\CSharp_Repos\CSharp_Projects\MyContacts\MyContacts\bin\Debug\EntityFramework.dll
+E:\CSharp_Repos\CSharp_Projects\MyContacts\MyContacts\bin\Debug\EntityFramework.SqlServer.dll
+E:\CSharp_Repos\CSharp_Projects\MyContacts\MyContacts\bin\Debug\EntityFramework.xml
+E:\CSharp_Repos\CSharp_Projects\MyContacts\MyContacts\bin\Debug\EntityFramework.SqlServer.xml
+E:\CSharp_Repos\CSharp_Projects\MyContacts\MyContacts\obj\Debug\MyContacts.csproj.Up2Date
