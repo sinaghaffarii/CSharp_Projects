@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\CSharp_Repos\\CSharp_Projects\\Accounting\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D96E1430-2243-41D2-91D9-E3EB4FDFD744}|Accounting.DataLayer\\Accounting.DataLayer.csproj|e:\\csharp_repos\\csharp_projects\\accounting\\accounting.datalayer\\services\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D96E1430-2243-41D2-91D9-E3EB4FDFD744}|Accounting.DataLayer\\Accounting.DataLayer.csproj|solutionrelative:accounting.datalayer\\services\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D96E1430-2243-41D2-91D9-E3EB4FDFD744}|Accounting.DataLayer\\Accounting.DataLayer.csproj|e:\\csharp_repos\\csharp_projects\\accounting\\accounting.datalayer\\repositories\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D96E1430-2243-41D2-91D9-E3EB4FDFD744}|Accounting.DataLayer\\Accounting.DataLayer.csproj|solutionrelative:accounting.datalayer\\repositories\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{25f7e850-ffa1-11d0-b63f-00a0c922e851}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "E:\\CSharp_Repos\\CSharp_Projects\\Accounting\\Accounting.DataLayer\\Services\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "Accounting.DataLayer\\Services\\CustomerRepository.cs",
+              "ToolTip": "E:\\CSharp_Repos\\CSharp_Projects\\Accounting\\Accounting.DataLayer\\Services\\CustomerRepository.cs",
+              "RelativeToolTip": "Accounting.DataLayer\\Services\\CustomerRepository.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAUwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T20:24:28.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "E:\\CSharp_Repos\\CSharp_Projects\\Accounting\\Accounting.DataLayer\\Repositories\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "Accounting.DataLayer\\Repositories\\ICustomerRepository.cs",
+              "ToolTip": "E:\\CSharp_Repos\\CSharp_Projects\\Accounting\\Accounting.DataLayer\\Repositories\\ICustomerRepository.cs",
+              "RelativeToolTip": "Accounting.DataLayer\\Repositories\\ICustomerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T20:19:28.699Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

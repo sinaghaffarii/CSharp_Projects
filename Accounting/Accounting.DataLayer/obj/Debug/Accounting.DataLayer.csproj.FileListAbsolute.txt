@@ -1,0 +1,14 @@
+E:\CSharp_Repos\CSharp_Projects\Accounting\Accounting.DataLayer\bin\Debug\Accounting.DataLayer.exe.config
+E:\CSharp_Repos\CSharp_Projects\Accounting\Accounting.DataLayer\bin\Debug\Accounting.DataLayer.exe
+E:\CSharp_Repos\CSharp_Projects\Accounting\Accounting.DataLayer\bin\Debug\Accounting.DataLayer.pdb
+E:\CSharp_Repos\CSharp_Projects\Accounting\Accounting.DataLayer\bin\Debug\EntityFramework.dll
+E:\CSharp_Repos\CSharp_Projects\Accounting\Accounting.DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\CSharp_Repos\CSharp_Projects\Accounting\Accounting.DataLayer\bin\Debug\EntityFramework.xml
+E:\CSharp_Repos\CSharp_Projects\Accounting\Accounting.DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\CSharp_Repos\CSharp_Projects\Accounting\Accounting.DataLayer\obj\Debug\Accounting.DataLayer.csproj.AssemblyReference.cache
+E:\CSharp_Repos\CSharp_Projects\Accounting\Accounting.DataLayer\obj\Debug\Accounting.DataLayer.Properties.Resources.resources
+E:\CSharp_Repos\CSharp_Projects\Accounting\Accounting.DataLayer\obj\Debug\Accounting.DataLayer.csproj.GenerateResource.cache
+E:\CSharp_Repos\CSharp_Projects\Accounting\Accounting.DataLayer\obj\Debug\Accounting.DataLayer.csproj.CoreCompileInputs.cache
+E:\CSharp_Repos\CSharp_Projects\Accounting\Accounting.DataLayer\obj\Debug\Accounti.8EA99DEA.Up2Date
+E:\CSharp_Repos\CSharp_Projects\Accounting\Accounting.DataLayer\obj\Debug\Accounting.DataLayer.exe
+E:\CSharp_Repos\CSharp_Projects\Accounting\Accounting.DataLayer\obj\Debug\Accounting.DataLayer.pdb
