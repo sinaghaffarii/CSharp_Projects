@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uJhLZgDMgAI=",
+  "dgSpecHash": "Pik/+WTLrVo=",
   "success": true,
-  "projectFilePath": "E:\\CSharp_Repos\\repos\\ExcelGenerator1\\ExcelGenerator1\\ExcelGenerator.csproj",
+  "projectFilePath": "E:\\CSharp_Repos\\CSharp_Projects\\ExcelGenerator\\ExcelGenerator1\\ExcelGenerator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\enums.net\\4.0.1\\enums.net.4.0.1.nupkg.sha512",

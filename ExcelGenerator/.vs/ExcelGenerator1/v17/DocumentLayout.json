@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\CSharp_Repos\\repos\\ExcelGenerator1\\",
+  "WorkspaceRootPath": "E:\\CSharp_Repos\\CSharp_Projects\\ExcelGenerator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{42463BE3-9742-4D78-BBE9-7A01B89E5395}|ExcelGenerator1\\ExcelGenerator1.csproj|e:\\csharp_repos\\repos\\excelgenerator1\\excelgenerator1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42463BE3-9742-4D78-BBE9-7A01B89E5395}|ExcelGenerator1\\ExcelGenerator1.csproj|solutionrelative:excelgenerator1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42463BE3-9742-4D78-BBE9-7A01B89E5395}|ExcelGenerator1\\ExcelGenerator.csproj|e:\\csharp_repos\\csharp_projects\\excelgenerator\\excelgenerator1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42463BE3-9742-4D78-BBE9-7A01B89E5395}|ExcelGenerator1\\ExcelGenerator.csproj|solutionrelative:excelgenerator1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42463BE3-9742-4D78-BBE9-7A01B89E5395}|ExcelGenerator1\\ExcelGenerator.csproj|e:\\csharp_repos\\repos\\excelgenerator1\\excelgenerator1\\excelgenerator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{42463BE3-9742-4D78-BBE9-7A01B89E5395}|ExcelGenerator1\\ExcelGenerator.csproj|e:\\csharp_repos\\csharp_projects\\excelgenerator\\excelgenerator1\\excelgenerator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{42463BE3-9742-4D78-BBE9-7A01B89E5395}|ExcelGenerator1\\ExcelGenerator.csproj|solutionrelative:excelgenerator1\\excelgenerator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -23,25 +23,24 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ExcelGenerator",
-              "DocumentMoniker": "E:\\CSharp_Repos\\repos\\ExcelGenerator1\\ExcelGenerator1\\ExcelGenerator.csproj",
+              "Title": "ExcelGenerator.csproj",
+              "DocumentMoniker": "E:\\CSharp_Repos\\CSharp_Projects\\ExcelGenerator\\ExcelGenerator1\\ExcelGenerator.csproj",
               "RelativeDocumentMoniker": "ExcelGenerator1\\ExcelGenerator.csproj",
-              "ToolTip": "E:\\CSharp_Repos\\repos\\ExcelGenerator1\\ExcelGenerator1\\ExcelGenerator.csproj",
+              "ToolTip": "E:\\CSharp_Repos\\CSharp_Projects\\ExcelGenerator\\ExcelGenerator1\\ExcelGenerator.csproj",
               "RelativeToolTip": "ExcelGenerator1\\ExcelGenerator.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-19T07:48:34.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-19T07:48:34.742Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\CSharp_Repos\\repos\\ExcelGenerator1\\ExcelGenerator1\\Program.cs",
+              "DocumentMoniker": "E:\\CSharp_Repos\\CSharp_Projects\\ExcelGenerator\\ExcelGenerator1\\Program.cs",
               "RelativeDocumentMoniker": "ExcelGenerator1\\Program.cs",
-              "ToolTip": "E:\\CSharp_Repos\\repos\\ExcelGenerator1\\ExcelGenerator1\\Program.cs",
+              "ToolTip": "E:\\CSharp_Repos\\CSharp_Projects\\ExcelGenerator\\ExcelGenerator1\\Program.cs",
               "RelativeToolTip": "ExcelGenerator1\\Program.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwAgAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-19T07:21:37.616Z",
               "EditorCaption": ""

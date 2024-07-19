@@ -25,7 +25,7 @@ class Program
 
 
         // نام فایل اکسل که می‌خواهیم ایجاد کنیم
-        string filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "working_hours.xlsx");
+        string filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "workingHours.xlsx");
 
         // تعریف یک تقویم شمسی برای ماه خرداد
         PersianCalendar persianCalendar = new PersianCalendar();
@@ -33,15 +33,19 @@ class Program
 
         // ایجاد یک نمونه از کلاس XSSFWorkbook برای ساخت فایل Excel
         XSSFWorkbook workbook = new XSSFWorkbook();
-        ISheet worksheet = workbook.CreateSheet("Working Hours");
+        ISheet worksheet = workbook.CreateSheet("میرسینا غفاری");
 
-
+        worksheet.IsRightToLeft = true;
 
         // تنظیم عرض ستون‌ها
-        worksheet.SetColumnWidth(0, 15 * 256); // عرض ستون اول
-        worksheet.SetColumnWidth(1, 15 * 256); // عرض ستون دوم
-        worksheet.SetColumnWidth(2, 15 * 256); // عرض ستون سوم
-        worksheet.SetColumnWidth(3, 15 * 256); // عرض ستون چهارم
+        worksheet.SetColumnWidth(0, 15 * 200); // عرض ستون اول
+        worksheet.SetColumnWidth(1, 15 * 200); // عرض ستون دوم
+        worksheet.SetColumnWidth(2, 15 * 150); // عرض ستون سوم
+        worksheet.SetColumnWidth(3, 15 * 150); // عرض ستون چهارم
+        worksheet.SetColumnWidth(4, 15 * 150); // عرض ستون پنجم
+        worksheet.SetColumnWidth(5, 15 * 150); // عرض ستون ششم
+        worksheet.SetColumnWidth(6, 15 * 150); // عرض ستون هفتم
+        worksheet.SetColumnWidth(7, 15 * 256); // عرض ستون هشتم
 
 
         // روزهای هفته به فارسی با ترتیب درست (دوشنبه به عنوان روز اول)
@@ -49,21 +53,25 @@ class Program
 
         // تنظیم عنوان ستون‌ها
         IRow headerRow = worksheet.CreateRow(0);
-        headerRow.CreateCell(0).SetCellValue("روزهای کاری");
+        headerRow.CreateCell(0).SetCellValue("روز");
         headerRow.CreateCell(1).SetCellValue("تاریخ");
-        headerRow.CreateCell(2).SetCellValue("ساعت ورود");
-        headerRow.CreateCell(3).SetCellValue("ساعت خروج");
+        headerRow.CreateCell(2).SetCellValue("ورود");
+        headerRow.CreateCell(3).SetCellValue("خروج");
+        headerRow.CreateCell(4).SetCellValue("میزان حضور");
+        headerRow.CreateCell(5).SetCellValue("زمان مجاز");
+        headerRow.CreateCell(6).SetCellValue("میزان تاخیر");
+        headerRow.CreateCell(7).SetCellValue("");
 
-        // ایجاد استایل برای سلول‌های عنوان
-        ICellStyle headerStyle = workbook.CreateCellStyle();
-        IFont headerFont = workbook.CreateFont();
-        headerFont.Boldweight = (short)FontBoldWeight.Bold;
-        headerStyle.SetFont(headerFont);
+        //// ایجاد استایل برای سلول‌های عنوان
+        //ICellStyle headerStyle = workbook.CreateCellStyle();
+        //IFont headerFont = workbook.CreateFont();
+        //headerFont.Boldweight = (short)FontBoldWeight.Bold;
+        //headerStyle.SetFont(headerFont);
 
-        for (int i = 0; i < 4; i++)
-        {
-            headerRow.GetCell(i).CellStyle = headerStyle;
-        }
+        //for (int i = 0; i < 4; i++)
+        //{
+        //    headerRow.GetCell(i).CellStyle = headerStyle;
+        //}
 
         // شمارنده برای ردیف‌ها
         int rowNumber = 1;
@@ -91,16 +99,41 @@ class Program
             // اگر روز تعطیل رسمی باشد، ستون‌های ساعت ورود و خروج را به "تعطیل رسمی" تنظیم کنید
             if (isOfficialHoliday)
             {
-                row.CreateCell(2).SetCellValue("تعطیل رسمی");
-                row.CreateCell(3).SetCellValue("تعطیل رسمی");
+                row.CreateCell(2).SetCellValue("");
+                if (dayName == "پنج‌شنبه")
+                {
+                    row.CreateCell(7).SetCellValue("تعطیل");
+                }
+                else
+                {
+                    row.CreateCell(7).SetCellValue("تعطیل رسمی");
+                }
             }
             else
             {
                 // در غیر این صورت، ساعت ورود و خروج را به صورت تصادفی در محدوده‌های زمانی مشخص تنظیم کنید
-                row.CreateCell(2).SetCellValue(GenerateRandomTime(8, 30, 9, 30));
-                row.CreateCell(3).SetCellValue(GenerateRandomTime(17, 30, 18, 30));
+                row.CreateCell(2).SetCellValue(GenerateRandomTime(8, 45, 9, 10));
+                row.CreateCell(3).SetCellValue(GenerateRandomTime(18, 00, 18, 20));
             }
         }
+        // محاسبه میزان حضور
+        for (int i = 1; i < rowNumber; i++)
+        {
+            IRow currentRow = worksheet.GetRow(i);
+            ICell entryCell = currentRow.GetCell(2);
+            ICell exitCell = currentRow.GetCell(3);
+            ICell presenceCell = currentRow.CreateCell(4);
+
+            if (entryCell != null && exitCell != null)
+            {
+                TimeSpan entryTime = TimeSpan.Parse(entryCell.StringCellValue);
+                TimeSpan exitTime = TimeSpan.Parse(exitCell.StringCellValue);
+
+                TimeSpan presenceTime = exitTime - entryTime;
+                presenceCell.SetCellValue($"{presenceTime.Hours}:{presenceTime.Minutes:D2}");
+            }
+        }
+
 
         // ذخیره فایل Excel در مسیر مشخص شده
         using (FileStream fileStream = new FileStream(filePath, FileMode.Create, FileAccess.Write))

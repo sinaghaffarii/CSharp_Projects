@@ -1069,11 +1069,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\CSharp_Repos\\repos\\ExcelGenerator1\\ExcelGenerator1\\ExcelGenerator.csproj",
+      "projectUniqueName": "E:\\CSharp_Repos\\CSharp_Projects\\ExcelGenerator\\ExcelGenerator1\\ExcelGenerator.csproj",
       "projectName": "ExcelGenerator",
-      "projectPath": "E:\\CSharp_Repos\\repos\\ExcelGenerator1\\ExcelGenerator1\\ExcelGenerator.csproj",
+      "projectPath": "E:\\CSharp_Repos\\CSharp_Projects\\ExcelGenerator\\ExcelGenerator1\\ExcelGenerator.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "E:\\CSharp_Repos\\repos\\ExcelGenerator1\\ExcelGenerator1\\obj\\",
+      "outputPath": "E:\\CSharp_Repos\\CSharp_Projects\\ExcelGenerator\\ExcelGenerator1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
